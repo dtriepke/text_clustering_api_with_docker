@@ -14,7 +14,7 @@ The api based on `flask`.
 For launching the application  with docker use the following commands:
 
  `cd ./api`  
- `docker build -t iris_predict` 
+ `docker build -t iris_predict`  
  `docker run -p 0.0.0.0:5000:5000/tcp --name my_rl_iris_api iris_predict`  
 
 *The last command starts a new docker container*
