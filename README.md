@@ -1,4 +1,4 @@
-# NLP Clustering API
+# (simple) NLP Clustering REST API with Docker
 Production grade version of a unstructered text clustering application.
 
 
