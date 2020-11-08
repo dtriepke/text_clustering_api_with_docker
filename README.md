@@ -12,9 +12,13 @@ The api based on `flask`.
 
 ## Docker
 For launching the application  with docker use the following commands:
-  
- `docker build --tag nlp_clustering .`  
- `docker run -p 0.0.0.0:5000:5000/tcp --name my_text_clustering_app nlp_clustering`  
+```bash
+$ docker pull continuumio/anaconda3   
+$ docker build --tag nlp_clustering .    
+$ docker run -p 0.0.0.0:5000:5000/tcp --name my_text_clustering_app nlp_clustering  
+```
+
+
 
 *The last command starts a new docker container*
 
